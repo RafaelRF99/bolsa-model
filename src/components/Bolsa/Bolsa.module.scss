@@ -1,0 +1,55 @@
+.container {
+    height: var(--tamanhoBolsaAltura);
+    width: var(--tamanhoBolsaLargura);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    .bolsa {
+        height: calc( var(--tamanhoBolsaAltura) - 5% );
+        width: calc( var(--tamanhoBolsaLargura) - 5%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1rem;
+        
+        background-color: #000;
+        border: 1px solid #FFF;
+
+        .informacao {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+
+            gap: .7rem;
+
+            .botao {
+                height: calc( var(--tamanhoBolsaAltura) - 8rem );
+                width: calc( var(--tamanhoBolsaLargura) - 12.3rem);
+    
+                background-color: #cbc353;
+    
+                margin-bottom: 1.5rem;
+                border-radius: 50%;
+            }
+
+        }
+
+        .alca {
+            height: 100%;
+            width: 20px;
+
+            background-color: #898989;
+            border: 1px solid #d14d61;
+        }
+
+    }
+
+}
