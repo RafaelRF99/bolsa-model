@@ -17,8 +17,6 @@
         align-items: center;
 
         gap: 1rem;
-        
-        background-color: #000;
         border: 1px solid #FFF;
 
         .informacao {
@@ -36,7 +34,7 @@
     
                 background-color: #cbc353;
     
-                margin-bottom: 1.5rem;
+                margin-bottom: 1rem;
                 border-radius: 50%;
             }
 
@@ -50,6 +48,14 @@
             border: 1px solid #d14d61;
         }
 
+    }
+
+    .preta {
+        background-color: #000;
+    }
+
+    .vermelha {
+        background-color: #f04455;
     }
 
 }

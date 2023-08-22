@@ -1,4 +1,4 @@
-export class Bolsa {
+export class BolsaModel {
     #nome
     #cor
     #material
@@ -7,10 +7,10 @@ export class Bolsa {
 
     constructor(
         nome: string,
-        cor: string,
         material: string,
-        cheia = false,
         qtdBolso: number,
+        cor = 'Preta',
+        cheia = false,
     ) {
         this.#nome = nome
         this.#cor = cor
@@ -41,12 +41,12 @@ export class Bolsa {
 
     alterarEspaco() {
         const espaco = !this.cheia
-        return new Bolsa(
+        return new BolsaModel(
             this.nome,
-            this.cor,
             this.material,
-            espaco,
             this.qtdBolso,
+            this.cor,
+            espaco,
         )
     }
 }

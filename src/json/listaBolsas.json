@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Top",
+        "material": "Couro",
+        "qtdBolso": 3,
+        "cor": "Preta",
+        "cheia": true
+    },
+    {
+        "nome": "Magna",
+        "material": "Couro",
+        "qtdBolso": 2,
+        "cor": "Vermelha",
+        "cheia": false
+    },
+    {
+        "nome": "Gandz",
+        "material": "Tecido",
+        "qtdBolso": 1,
+        "cor": "Preta",
+        "cheia": true
+    }
+]
